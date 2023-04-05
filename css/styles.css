@@ -1,17 +1,52 @@
 body {
-    background-color: #fff;
-    font-family: Roboto;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .list {
-    list-style: none;
+  list-style: none;
 }
-.link {text-decoration: none;}
+.link {
+  text-decoration: none;
+}
 .menu-link {
-    font-family: 'Roboto',
-        sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px1.5;
-        letter-spacing: 0.02em;    
-        color: #2E2F42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+/* Contacts */
+.contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4D5AE5;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+    background: #404BBF;
+  }
