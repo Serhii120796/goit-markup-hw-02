@@ -34,6 +34,7 @@ body {
   text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
+    color: var(--secondary-text-color-theme-light);
 }
 
 .photo-title {
@@ -41,12 +42,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-light);
 }
 
 .photo-description {
   font-weight: 400;
   font-size: 16px;
-  color: var(--secondary-text-color-theme-light);
+  color: var(--primary-text-color-theme-light);
 }
 
 /* ==================================/COMPONENTS=============================== */
@@ -63,7 +65,7 @@ body {
   color: var(--logo-color);
 }
 .logo-theme-light {
-  color: var(--primary-text-color-theme-light);
+  color: var(--secondary-text-color-theme-light);
 }
 
 .logo-theme-dark {
@@ -72,7 +74,7 @@ body {
 
 .menu-link {
   font-weight: 500;
-  color: var(--primary-text-color-theme-light);
+  color: var(--secondary-text-color-theme-light);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -82,10 +84,11 @@ body {
 /* Contacts */
 
 .address {font-style: normal;}
+
 .contact-link {
   font-style: normal;
   font-weight: 400;
-  color: var(--secondary-text-color-theme-light);
+  color: var(--primary-text-color-theme-light);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -95,14 +98,17 @@ body {
 
 /* ====================================HERO================================ */
 
+.hero {
+  background-color: var(--secondary-text-color-theme-light);
+}
+
 .hero-title {
   /* font-weight: 700; */
   font-size: 56px;
   line-height: 1.07;
-  background-color: var(--secondary-text-color-theme-light);;
   color: var(--primary-text-color-theme-dark);
   text-align: center;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 /* Button */
@@ -131,11 +137,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-light);
 }
 
 .advantage-text {
   /* font-weight: 400; */
-  color: var(--secondary-text-color-theme-light);
+  color: var(--primary-text-color-theme-light);
 }
 
 /* ================================/OUR ADVANTAGES============================ */
