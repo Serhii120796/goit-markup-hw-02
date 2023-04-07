@@ -1,8 +1,8 @@
 :root {
-  --primary-text-color-theme-light: #2e2f42;
-  --secondary-text-color-theme-light: #434455;
+  --primary-text-color-theme-light: #434455;
+  --secondary-text-color-theme-light: #2e2f42;
   --primary-text-color-theme-dark: #ffffff;
-  --secondary-text-color-theme-dark: #F4F4FD;
+  --secondary-text-color-theme-dark: #f4f4fd;
   --logo-color: #4d5ae5;
   --accent-color: #404bbf;
   --batton-background-theme-dark: #4d5ae5;
@@ -31,17 +31,22 @@ body {
   /* font-weight: 700; */
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .photo-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
+
 .photo-description {
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--secondary-text-color-theme-light);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secondary-text-color-theme-light);
 }
 
 /* ==================================/COMPONENTS=============================== */
@@ -55,10 +60,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-color: var(--primary-text-color-theme-light);
-}
-.logo-color {
   color: var(--logo-color);
+}
+.logo-theme-light {
+  color: var(--primary-text-color-theme-light);
+}
+
+.logo-theme-dark {
+  color: var(--secondary-text-color-theme-dark);
 }
 
 .menu-link {
@@ -71,6 +80,8 @@ color: var(--primary-text-color-theme-light);
 }
 
 /* Contacts */
+
+.address {font-style: normal;}
 .contact-link {
   font-style: normal;
   font-weight: 400;
@@ -88,11 +99,15 @@ color: var(--primary-text-color-theme-light);
   /* font-weight: 700; */
   font-size: 56px;
   line-height: 1.07;
-  /* color: var(--primary-text-color-theme-dark; */
+  background-color: var(--secondary-text-color-theme-light);;
+  color: var(--primary-text-color-theme-dark);
+  text-align: center;
+  letter-spacing: 0.02em
 }
 
 /* Button */
 .modal-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -115,12 +130,12 @@ color: var(--primary-text-color-theme-light);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-   letter-spacing: 0.02em;
-  }
+  letter-spacing: 0.02em;
+}
 
 .advantage-text {
-    /* font-weight: 400; */
-    color: var(--secondary-text-color-theme-light);
+  /* font-weight: 400; */
+  color: var(--secondary-text-color-theme-light);
 }
 
 /* ================================/OUR ADVANTAGES============================ */
@@ -131,31 +146,37 @@ color: var(--primary-text-color-theme-light);
 
 /* ====================================OUR TEAM=============================== */
 
+.team {
+  background-color: #F4F4FD;
+}
+.team-item {background-color: #FFFFFF;
+}
+
 /* ===================================/OUR TEAM=============================== */
 
 /* =====================================FOOTER================================ */
 
-.logotype-theme-dark {
-  color: var(--secondary-text-color-theme-dark);
+.page-footer {
+  background-color: var(--secondary-text-color-theme-light);
 }
 
 .footer-text {
- 
-    color: var(--secondary-text-color-theme-dark);
+  color: var(--secondary-text-color-theme-dark);
 }
 /* =====================================/FOOTER================================ */
 
 /* =====================================FILTER================================ */
 
 .filter-btn {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--logo-color);
-    background: var(--secondary-text-color-theme-dark);
-      cursor: pointer;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background: var(--secondary-text-color-theme-dark);
+  cursor: pointer;
 }
 
 .filter-btn:hover,
