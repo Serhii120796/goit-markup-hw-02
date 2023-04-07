@@ -1,10 +1,12 @@
 :root {
-  --primary-text-color: #434455;
-  --secondary-text-color: #2e2f42;
+  --primary-text-color-theme-light: #2e2f42;
+  --secondary-text-color-theme-light: #434455;
   --primary-text-color-theme-dark: #ffffff;
   --secondary-text-color-theme-dark: #F4F4FD;
-  --accent-color: #404bbf;
   --logo-color: #4d5ae5;
+  --accent-color: #404bbf;
+  --batton-background-theme-dark: #4d5ae5;
+  --batton-background-accent: #404bbf;
 }
 .list {
   list-style: none;
@@ -20,10 +22,27 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--primary-text-color-theme-light);
 }
 
 /* ==================================COMPONENTS=============================== */
+
+.secondary-title {
+  /* font-weight: 700; */
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.photo-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.photo-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--secondary-text-color-theme-light);
+}
 
 /* ==================================/COMPONENTS=============================== */
 
@@ -36,7 +55,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
+color: var(--primary-text-color-theme-light);
 }
 .logo-color {
   color: var(--logo-color);
@@ -44,7 +63,7 @@ body {
 
 .menu-link {
   font-weight: 500;
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color-theme-light);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -55,7 +74,7 @@ body {
 .contact-link {
   font-style: normal;
   font-weight: 400;
-  color: var(--text-color-the);
+  color: var(--secondary-text-color-theme-light);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -66,7 +85,7 @@ body {
 /* ====================================HERO================================ */
 
 .hero-title {
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 56px;
   line-height: 1.07;
   /* color: var(--primary-text-color-theme-dark; */
@@ -79,12 +98,69 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-text-color-theme-dark);
-  background: #4d5ae5;
+  background: var(--batton-background-theme-dark);
   cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #404bbf;
+  background: var(--batton-background-accent);
 }
+
 /* ====================================/HERO================================ */
+
+/* ================================OUR ADVANTAGES============================ */
+
+.advantage-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+   letter-spacing: 0.02em;
+  }
+
+.advantage-text {
+    /* font-weight: 400; */
+    color: var(--secondary-text-color-theme-light);
+}
+
+/* ================================/OUR ADVANTAGES============================ */
+
+/* ===============================WHAT ARE WE DOING=========================== */
+
+/* ==============================/WHAT ARE WE DOING=========================== */
+
+/* ====================================OUR TEAM=============================== */
+
+/* ===================================/OUR TEAM=============================== */
+
+/* =====================================FOOTER================================ */
+
+.logotype-theme-dark {
+  color: var(--secondary-text-color-theme-dark);
+}
+
+.footer-text {
+ 
+    color: var(--secondary-text-color-theme-dark);
+}
+/* =====================================/FOOTER================================ */
+
+/* =====================================FILTER================================ */
+
+.filter-btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-color);
+    background: var(--secondary-text-color-theme-dark);
+      cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--primary-text-color-theme-dark);
+  background: var(--batton-background-accent);
+}
+/* =====================================FILTER================================ */
