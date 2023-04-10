@@ -28,8 +28,7 @@ body {
 /* ==================================COMPONENTS=============================== */
 
 .secondary-title {
-  /* font-weight: 700; */
-  font-size: 36px;
+   font-size: 36px;
   line-height: 1.11;
   text-align: center;
     text-transform: capitalize;
@@ -64,6 +63,7 @@ body {
   text-transform: uppercase;
   color: var(--logo-color);
 }
+
 .logo-theme-light {
   color: var(--secondary-text-color-theme-light);
 }
@@ -76,14 +76,22 @@ body {
   font-weight: 500;
   color: var(--secondary-text-color-theme-light);
 }
+
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
 }
 
+/* Акцент на посилання на активну сторінку */
+.menu .menu-link.link.current {
+  color:var(--accent-color);
+}
+
 /* Contacts */
 
-.address {font-style: normal;}
+.address {
+  font-style: normal;
+}
 
 .contact-link {
   font-style: normal;
@@ -94,6 +102,7 @@ body {
 .contact-link:focus {
   color: var(--accent-color);
 }
+
 /* ==================================/HEADER=============================== */
 
 /* ====================================HERO================================ */
@@ -103,7 +112,6 @@ body {
 }
 
 .hero-title {
-  /* font-weight: 700; */
   font-size: 56px;
   line-height: 1.07;
   color: var(--primary-text-color-theme-dark);
@@ -141,8 +149,7 @@ body {
 }
 
 .advantage-text {
-  /* font-weight: 400; */
-  color: var(--primary-text-color-theme-light);
+   color: var(--primary-text-color-theme-light);
 }
 
 /* ================================/OUR ADVANTAGES============================ */
@@ -156,7 +163,9 @@ body {
 .team {
   background-color: #F4F4FD;
 }
-.team-item {background-color: #FFFFFF;
+
+.team-item {
+  background-color: #FFFFFF;
 }
 
 /* ===================================/OUR TEAM=============================== */
@@ -170,6 +179,7 @@ body {
 .footer-text {
   color: var(--secondary-text-color-theme-dark);
 }
+
 /* =====================================/FOOTER================================ */
 
 /* =====================================FILTER================================ */
@@ -191,4 +201,5 @@ body {
   color: var(--primary-text-color-theme-dark);
   background: var(--batton-background-accent);
 }
+
 /* =====================================FILTER================================ */
